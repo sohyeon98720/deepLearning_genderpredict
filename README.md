@@ -12,7 +12,8 @@
 
 **프로젝트 내용** :
 1. 데이터 준비 : kaggle에서 *RSNA Bone Age* 데이터셋을 이용함.
-    - 손 x-ray 사진 일부(총 약 12000여개) 와 csv 일부
+    - 데이터의 수 : 사진 약 12000여장
+    - 손 x-ray 사진 예시와 csv 예시
 
 ![손 x-ray 사진 예시](https://user-images.githubusercontent.com/47767202/76082540-fece2780-5fee-11ea-9cad-dcb289e0d3ac.jpg)
     
