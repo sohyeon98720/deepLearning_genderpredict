@@ -41,7 +41,7 @@
        version1에서 augmentation을 적용 + epoch=70으로 늘림                      
       -> train acc=0.7448 / val acc=0.7561 / test acc=0.8125
       ![figure4](https://user-images.githubusercontent.com/47767202/76084475-4e165700-5ff3-11ea-932a-f756c1a59a8f.png)                
-<br><br><br>
+<br><br>
 
     - ln[17]부터는 완성되지 않은부분임.                   
       (epoch을 늘리면서 overfitting방지를 위한 early-stopping을 넣은 모델을 구성하더 과정)
