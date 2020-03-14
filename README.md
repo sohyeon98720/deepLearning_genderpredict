@@ -44,7 +44,7 @@
 <br><br>
 
     - ln[17]부터는 완성되지 않은부분임.                   
-      (epoch을 늘리면서 overfitting방지를 위한 early-stopping을 넣은 모델을 구성하더 과정)
+      (epoch을 늘리면서 overfitting방지를 위한 early-stopping을 넣은 모델을 구성하던 과정)
 -------------------------------------------------------------
 
 **결론** : human level error - 현직 의사들의 acc가 약 88% 부근이고 코드 상 최고 acc가 약 80%인 점으로 볼 때<br>
