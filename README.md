@@ -41,21 +41,11 @@
        version1에서 augmentation을 적용 + epoch=70으로 늘림                      
       -> train acc=0.7448 / val acc=0.7561 / test acc=0.8125
       ![figure4](https://user-images.githubusercontent.com/47767202/76084475-4e165700-5ff3-11ea-932a-f756c1a59a8f.png)                
-      _=> 더 나은 정확도를 위해 epoch을 늘리기로 결정_
 <br><br><br>
 
-    - `version3. 모델 구성`                                                     
-       epoch=120 으로 늘린 것 외에 달라진 점 X                              
-       ![figure5](https://user-images.githubusercontent.com/47767202/76084893-40150600-5ff4-11ea-84c4-b5f4f323ba7e.png)                
-       파란색 - train acc / 빨간색 - val acc                          
-       -> epoch 70이 넘어가면서 부터 overfitting이 발생함                                       
-       _=> early stopping 추가_                                                 
-       _=> 최종 test acc = 70.94_
-
-
+    - ln[17]부터는 완성되지 않은부분임.                   
+      (epoch을 늘리면서 overfitting방지를 위한 early-stopping을 넣은 모델을 구성하더 과정)
 -------------------------------------------------------------
-
-**문제점** : 최종 코드인 version3 - early stopping을 한 정확도가 version 2의 정확도 보다 낮았음
 
 **결론** : human level error - 현직 의사들의 acc가 약 88% 부근이고 코드 상 최고 acc가 약 80%인 점으로 볼 때<br>
 모델에 약간의 수정을 더하면 human lever error를 따라잡을 수 있겠다는 생각을 했다.<br>
