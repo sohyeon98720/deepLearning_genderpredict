@@ -16,7 +16,7 @@
     - 데이터의 수 : 사진 약 12000여장
     - 손 x-ray 사진 예시와 csv 예시
 
-![손 x-ray 사진 예시](https://user-images.githubusercontent.com/47767202/76082540-fece2780-5fee-11ea-9cad-dcb289e0d3ac.jpg)
+   <img src="https://user-images.githubusercontent.com/47767202/76082540-fece2780-5fee-11ea-9cad-dcb289e0d3ac.jpg" width="40%">
     
 ![figure2](https://user-images.githubusercontent.com/47767202/76082802-8156e700-5fef-11ea-9497-0c7e8d49e5be.PNG)
 <br><br><br>
